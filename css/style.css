@@ -1,18 +1,15 @@
-* {
- margin: 0;
- padding:0;
- }
- body {
+body {
     background-color: LightGray;
 }
 div {
      border: 1px solid Chocolate;
 }
+
 /* Navigation Section */
 .top-navigation {
     background-color: #fff;
 }
-.top-navigation > .content {
+.top-navigation  > .content {
     width: 970px;
     height: 70px;
     margin: 0 auto;
