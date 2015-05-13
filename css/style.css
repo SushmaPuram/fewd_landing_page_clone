@@ -23,9 +23,6 @@ body {
 font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
-:focus {
-    outline: none;
-}
 
 .top-navigation {
     background-color: #fff;
@@ -137,8 +134,7 @@ button {
 }
 .maincontent {
     background-color: #fff;
-     width: 100%;
-  
+     width: 100%; 
   z-index: 9999;
   overflow: auto;
 }
