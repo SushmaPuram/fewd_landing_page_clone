@@ -197,6 +197,10 @@ li {
    /* margin: 1.313rem 0;*/
    width: 779.67px;
 }
+.social h4 {
+ font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
+}
 .social .icons2  li {
     border-radius: 1.25rem;
     width: 2.2rem;
