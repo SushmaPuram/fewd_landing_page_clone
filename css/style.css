@@ -1,4 +1,19 @@
+
+/**
+ * HTML5 display-role reset for older browsers
+ */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
 body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+/*End of reset*/
+ body {
     background-color: LightGray;
 }
 div {
@@ -22,6 +37,7 @@ font-family: 'Roboto', sans-serif;
     height: 70px;
     margin: 0 auto;
 }
+/* to make logo & links even closer*/
 .top-navigation .content {
   padding: 0 0.938rem;
   margin: 0 auto;
@@ -57,7 +73,7 @@ ul {
     cursor: pointer;
     color: #333333;
 }
-html,body,div,ul, nav,section,h1,h3 {
+html,body,div,ul, nav,section,h1,h3,h4,caption {
   margin: 0;
   padding: 0;
   border: 0;
@@ -100,9 +116,7 @@ html,body,div,ul, nav,section,h1,h3 {
     margin-top: 1.25rem;
     font-size: 1.563rem;
 }
-.introduction .big-button {
-
-    
+.introduction .big-button {  
     margin-top: 1.563rem;
 }
 button {
@@ -118,18 +132,55 @@ button {
   display: block;
   margin: 0 auto;
 }
-
-/*text-shadow: none;
-    border-style: none;
-    border-radius: 4px;
-    padding: 16px 26px;
-    line-height: 1.33;
+.maincontent {
+    background-color: #fff;
+     width: 100%;
+  border-bottom: 1px solid #DDD;
+  z-index: 9999;
+  overflow: auto;
+}
+.maincontent .content {
+    width: 970px;
     margin: 0 auto;
-    background-color: orange;
+     /* padding: 0 0.938rem;
+  min-width: 37.5rem;*/
+    font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
+  margin-top: 7.875rem;
+  padding: none;
+  color: #1d1e21;
+  text-align: center;
+}
+.maincontent h2 {
+  font-size: 2.75rem;
+  margin-top: 6.625rem;
+  margin-bottom:3.125rem;
+/*margin: 1.625rem 0 3.125rem;*/
+  font-weight: 300;
 
-width: 49%;
-    padding: 0 0.938rem;
+}
+h2 {
+    display: block;
+}
+.content {
+  padding: 0 0.938rem;
+  margin: 0 auto;
+  min-width: 37.5rem;
+}
+
+.maincontent .icons li {
     display: inline-block;
-    vertical-align: bottom;
-    font-size: 1.125rem;
-    line-height: 1.2;*/
+    margin-left: 1.563rem;
+    /* To align the icons left and right with width property
+    for example try increasing the width property */ 
+    width: 30%;
+  float: left;
+}
+li {
+    display: list-item;
+}
+.maincontent .icons h4 {
+      font-weight: 400;
+  font-size: 1.563rem;
+  margin: 2.5rem 0 1.875rem;
+}
